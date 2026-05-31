@@ -16,6 +16,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Deploy on Streamlit Cloud
+
+Use this repository and set the main file path to:
+
+```text
+app.py
+```
+
 ## Inputs
 
 The app uses age, sex, BMI, number of children, smoker status, and region. It also creates the engineered features expected by the saved model.
